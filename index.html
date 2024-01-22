@@ -15,23 +15,126 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                'first-color': '#131318',
               }
             }
           }
         }
       </script>
+      <!-- font manrope -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+    .font-manrope{
+        font-family: 'Manrope', sans-serif;
+    }
+</style>
 
-      
+
 </head>
 
 <body>
     <header>
         <nav>
-
+            
         </nav>
+        <!-- banner section -->
+        <div class="container mx-auto mt-24 ">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="images/1.png" class=" w-full  rounded-2xl " />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="bg-first-color rounded-2xl p-8 lg:w-1/4 lg:absolute right-[35rem] top-0 lg:mt-[37rem] mt-3  ">
+            <h2 class="font-manrope font-extrabold text-3xl text-white pb-3">Meet all the heroes from the field</h2>
+            <p class="text-gray-500">
+                Ladies and gentlemen, welcome to the thrilling world of hockey! Tonight, we gather here for an electrifying encounter between two formidable teams, ready to showcase their skill, speed, and sportsmanship on the icy battlefield.</p>
+        </div>
+       <div class="mt-12 container mx-auto border-t-2 border-dotted border-gray-800 my-4 pt-10">
+        <!-- professional hockeys club -->
+        <h2 class="text-center text-4xl font-extrabold font-manrope ">Professional Hockeys Club</h2>
+        <p class="text-center text-gray-500 pt-4">
+            Joining a hockey club can be a fantastic way to immerse yourself in the sport, whether you're a player, a fan, or someone interested in the community around hockey.</p>
+       </div>
+       <!-- percentage section -->
+       <div class="mt-12 text-center lg:flex justify-center gap-20  container mx-auto border-t-2 border-dotted border-gray-800 my-4 pt-10 ">
+       <div>
+        <div class="lg:w-[5rem] h-[5rem] text-red-500  font-manrope  font-bold text-2xl  radial-progress" style="--value:87;" role="progressbar"><span class="text-black">87%</span></div>
+        <h2 class="font-manrope text-xl font-bold pt-1">Player Facility</h2>
+        <p class="text-gray-500 mb-6">Our team have the <br>
+             best facility for the players.</p>
+       </div>
+       <div>
+        <div class="lg:w-[5rem] h-[5rem] text-green-500  font-manrope  font-bold text-2xl  radial-progress" style="--value:95;" role="progressbar"><span class="text-black">95%</span></div>
+        <h2 class="font-manrope text-xl font-bold pt-1">Player Facility</h2>
+        <p class="text-gray-500 mb-6">Our team have the <br>
+             best facility for the players.</p>
+       </div>
+       <div>
+        <div class="lg:w-[5rem] h-[5rem] text-yellow-300  font-manrope font-bold text-2xl  radial-progress" style="--value:90;" role="progressbar"><span class="text-black">90%</span></div>
+        <h2 class="font-manrope text-xl font-bold pt-1">Player Facility</h2>
+        <p class="text-gray-500 mb-6">Our team have the <br>
+             best facility for the players.</p>
+       </div>
+       <div>
+        <div class="lg:w-[5rem] h-[5rem] text-blue-500  font-manrope  font-bold text-2xl  radial-progress" style="--value:80;" role="progressbar"><span class="text-black">80%</span></div>
+        <h2 class="font-manrope text-xl font-bold pt-1">Player Facility</h2>
+        <p class="text-gray-500">Our team have the <br>
+             best facility for the players.</p>
+       </div>
+       </div>
     </header>
     <main>
-
+        <!-- program section  -->
+        <section class="mt-12 container mx-auto border-t-2 border-dotted border-gray-800 my-4 pt-10">
+            <div class="text-center">
+                <h1 class="text-3xl font-extrabold font-manrope">Program Sections</h1>
+                <p class="text-gray-500 font-manrope text-xl pt-3">
+                    To watch hockey on TV, you can tune in to sports networks that have broadcasting rights for hockey events. </p>
+            </div>
+            <div class="mt-12 container mx-auto border-t-2 border-dotted border-gray-800 my-4 pt-10">
+                <div class="hero lg:w-[36rem] h-[21rem] rounded-2xl " style="background-image: url(images/2.png); ">
+                    <div class="hero-overlay bg-opacity-50"></div>
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class="mb-5 text-3xl  text-start pt-10 font-manrope font-extrabold">Junior Program</h1>
+                        <p class="mb-3 font-manrope text-start">
+                            A junior program in the context of sports, including hockey, typically refers to a development program designed for young athletes. .</p>
+                        <button class="btn btn-primary font-manrope lg:mr-80">Register Now!</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
     </main>
     <footer>
 
