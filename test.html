@@ -1,40 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tet</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
-<body>
-    <section class="mt-12   container mx-auto border-t-2 border-dotted border-gray-800 my-4 pt-10">
-        <!-- first program section  -->
-    <div class="hero  rounded-2xl " style="background-image: url(images/2.png); ">
-        <div class="hero-overlay bg-opacity-50"></div>
-        <div class="hero-content  text-neutral-content">
-          <div class="max-w-md">
-            <h1 class="mb-5 text-3xl  text-start pt-10 font-manrope font-extrabold">Junior Program</h1>
-            <p class="mb-3 font-manrope text-start">
-                A junior program in the context of sports, including hockey, typically refers to a development program designed for young athletes. .</p>
-            <button class="btn btn-primary font-manrope ">Register Now!</button>
-            </div>
-          </div>
+<body class="container mx-auto">
+  <x-card>
+    <x-slot name="header">
+        {{-- Your image goes here --}}
+        <img src="Images/11.png" alt="Card Image" class="w-full h-32 object-cover">
+    </x-slot>
+
+    <div>
+        {{-- Card content goes here --}}
+        <div class="p-6">
+            <h2 class="text-xl font-semibold">Card Title</h2>
+            <p class="mt-4">Card content goes here...</p>
         </div>
-      </div>
-</div>
-    <div class="hero lg:w-[36rem] h-[21rem] rounded-2xl " style="background-image: url(images/2.png); ">
-        <div class="hero-overlay bg-opacity-50"></div>
-        <div class="hero-content  text-neutral-content">
-          <div class="max-w-md">
-            <h1 class="mb-5 text-3xl  text-start pt-10 font-manrope font-extrabold">Junior Program</h1>
-            <p class="mb-3 font-manrope text-start">
-                A junior program in the context of sports, including hockey, typically refers to a development program designed for young athletes. .</p>
-            <button class="btn btn-primary font-manrope ">Register Now!</button>
-            </div>
-          </div>
-        </div>
-      </div>
-</div>
-</section>
+    </div>
+</x-card>
 
 </body>
 </html>
